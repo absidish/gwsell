@@ -1,0 +1,217 @@
+body {
+    overflow-x: hidden;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+.content_cut {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+.wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header:after {
+    content: '';
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #8c9a9a;
+}
+header .content_cut {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+header .content_cut .left_block div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .content_cut .left_block div .logo {
+    width: 170px;
+    height: auto;
+}
+header .content_cut .left_block div .logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+header .content_cut .left_block div .icons {
+    margin-left: 20px;
+}
+header .content_cut .left_block div .icons:before {
+    display: block;
+    content: '';
+    width: 1px;
+    height: 20px;
+    margin-right: 20px;
+    background-color: #8c9a9a;
+}
+header .content_cut .left_block div .icons i {
+    font-size: 1em;
+    margin-right: 10px ;
+}
+header .content_cut .right_block nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .content_cut .right_block nav ul li {
+    padding: 0 20px;
+}
+header .content_cut .right_block nav ul li a {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+.main_block {
+    position: relative;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin: 0 auto;
+}
+.main_block .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(0) translateX(-50%);
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.03);
+    border: 1px solid #747474;
+    height: 400px;
+    padding: 30px;
+}
+.main_block .cart:hover {
+    border: 1px solid #E7B46E;
+}
+.main_block .cart h1 {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+}
+.main_block .cart h2 {
+    text-align: center;
+}
+.main_block .cart div .title_cart h2 {
+    font-size: 2em;
+}
+.main_block .cart div .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.main_block .cart div .price p {
+    font-family: "Fira Code";
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.dropdown table {
+    margin-bottom: 20px;
+}
+.btn_pypal {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffffff;
+}
+.btn_pypal:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #E7B46E;
+    border: 1px solid #E7B46E;
+}
+a.buy-with-crypto,
+a.donate-with-crypto {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+#btn_any {
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
+#btn_any:hover {
+    color: #E7B46E;
+    border: 1px solid #E7B46E;
+}
+.buy_icons {
+    position: relative;
+    z-index: 1;
+}
+.buy_icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_icons ul li {
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+}
+.buy_icons ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
